@@ -6,12 +6,12 @@ with open("README.md", "r", encoding="utf-8") as f:
 setup(
     name="src",
     version="0.0.1",
-    author="c17hawke",
+    author="Suman",
     description="A small package for dvc dl pipeline demo",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/c17hawke/DVC_DL_Tensorflow_demo",
-    author_email="sunny.c17hawke@gmail.com",
+    url="https://github.com/SumanSav1/DVC-TensorFlow-Project",
+    author_email="sumansapps@gmail.com",
     packages=["src"],
     python_requires=">=3.7",
     install_requires=[
