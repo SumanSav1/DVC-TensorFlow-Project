@@ -13,6 +13,7 @@ logging.basicConfig(filename=os.path.join(log_dir, 'running_logs.log'), level=lo
                     filemode="a")
 
 def copy_file(source_download_dir, local_data_dir):
+
     list_of_files = os.listdir(source_download_dir)
     N = len(list_of_files)
     for file in tqdm(list_of_files, total=N, desc=f'copying file from {source_download_dir} to {local_data_dir}', colour="green"):
